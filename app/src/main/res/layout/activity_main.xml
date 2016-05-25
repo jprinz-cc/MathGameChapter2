@@ -22,7 +22,7 @@
         android:layout_height="150dp"
         android:id="@+id/imageView"
         android:layout_marginTop="33dp"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/math"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 

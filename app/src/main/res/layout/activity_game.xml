@@ -87,4 +87,26 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Score: 999"
+        android:id="@+id/textScore"
+        android:textColor="#f5f5f5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textPartA"
+        android:layout_alignStart="@+id/textPartA" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Level: 4"
+        android:id="@+id/textLevel"
+        android:textColor="#f5f5f5"
+        android:layout_alignTop="@+id/textScore"
+        android:layout_alignRight="@+id/textPartB"
+        android:layout_alignEnd="@+id/textPartB" />
+
 </RelativeLayout>
